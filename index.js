@@ -8,7 +8,7 @@ import Post from './models.js'
 // var bodyParser = require('body-parser')
 // const express = express()
 const app = express()
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8081;
 mongoose.connect("mongodb://localhost:27017/memes")
 app.use(bodyParser.urlencoded({extended: true}))
 
